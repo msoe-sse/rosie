@@ -6,21 +6,33 @@
 	</head>
 <style>
 body {
-	background: black;
+	color: #34495e;
 }
-.center {
-  background: white;
-  width:  50%;
-  border: 15px solid red;
-  padding: 40px;
-  margin: 30px auto;
+
+a {
+	color: #c30000;
+	text-decoration: underline;
+	font-weight: 600;
 }
+
+a:hover {
+	color: #c30000;
+}
+
 .title {
-	color: white;
-	padding: 40px;
-	padding-bottom: 0px;
 	text-align: center;
 }
+
+.card-body {
+	margin-top: 1rem;
+	height: 13rem;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-text {
+	height: 2.5rem;
+}
+
 </style>
 <body>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -33,33 +45,34 @@ body {
 		</div>
 		<div class="row">
 			<div class="col-sm">
-			<div class="center" style="width: 18rem;">
 				<div class="card-body">
 					<h2 class="card-title">Cluster User Guide</h2>
 					<p class="card-text">How to use Rosie: connection guide, access URLs, terminal commands, cluster info, and more.</p>
         			<a href="https://msoe.dev" class="card-link">www.msoe.dev</a>
 				</div>
 			</div>
-			</div>
 			<div class="col-sm">
-        	<div class="center" style="width: 18rem;">
 				<div class="card-body">
 					<h2 class="card-title">Rosie Web Portal</h2>
 					<p class="card-text">OpenOnDemand web frontend.</p>
        		 		<a href="https://dh-ood.hpc.msoe.edu" class="card-link">https://dh-ood.hpc.msoe.edu</a>
 				</div>
 			</div>
-			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm">
-			<div class="center" style="width: 18rem;">
 				<div class="card-body">
 					<h2 class="card-title">Rosie Visualizer</h2>
 					<p class="card-title">SDL Student Project</p>
 					<a href="http://dashboard.hpc.msoe.edu/" class="card-link">http://dashboard.hpc.msoe.edu/</a>
 				</div>
 			</div>
+			<div class="col-sm">
+				<div class="card-body">
+					<h2 class="card-title">Rosie GitHub</h2>
+					<p class="card-title">The source code for msoe.dev and hpc.msoe.edu.</p>
+					<a href="https://github.com/gagandaroach/rosie" class="card-link">https://github.com/gagandaroach/rosie</a>
+				</div>
 			</div>
 		</div>
 	</div>
